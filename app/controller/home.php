@@ -5,7 +5,7 @@
 
     public function index()
     {
-      echo 'home/index';
+      echo 'home/batata';
     }
   }
 
