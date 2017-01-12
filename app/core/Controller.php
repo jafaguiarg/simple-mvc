@@ -10,7 +10,11 @@
             require_once('../app/model/' . $model . '.php');
         }
 
-        public function view($view, $data)
+      /**
+       * @param $view
+       * @param array $data
+       */
+        public function view($view, $data = [])
         {
             require_once ('../app/view/' . $view . '.php');
         }
