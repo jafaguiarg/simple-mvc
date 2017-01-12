@@ -1,6 +1,6 @@
 <?php
 
-class UserModel
+class UserModel extends Database
 {
     /**
      * @var $name
