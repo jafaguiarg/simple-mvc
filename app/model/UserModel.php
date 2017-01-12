@@ -2,6 +2,9 @@
 
 class UserModel extends Database
 {
+    /**
+     * UserModel constructor.
+     */
     public function __construct()
     {
         $connection = Database::$instance;
