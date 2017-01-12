@@ -11,7 +11,6 @@ class Database {
      * Database constructor.
      */
     private function __construct() {
-        //
     }
 
     /**
