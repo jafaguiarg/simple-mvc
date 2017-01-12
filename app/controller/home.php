@@ -1,12 +1,13 @@
 <?php
 
-  class Home extends Controller
-  {
-
+class Home extends Controller
+{
+    /**
+     * This is the default method.
+     */
     public function index()
     {
-      echo 'home/index';
+        echo 'home/index';
     }
-  }
+}
 
-?>
